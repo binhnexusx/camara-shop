@@ -3,6 +3,8 @@ import './App.css';
 import Counter from '../States/Counter'
 import CaculateArea from '../States/CaculateArea'
 import CameraList from '../States/Camaralist'
+import ClassState from '../States/ClassState';
+import FunctionState from '../States/FunctionState';
 
 function App() {
   return (
@@ -15,6 +17,12 @@ function App() {
       </div>
       <div>
         <CameraList></CameraList>
+      </div>
+      <div>
+        <FunctionState></FunctionState>
+      </div>
+      <div>
+        <ClassState></ClassState>
       </div>
     </div>
   );
