@@ -30,7 +30,7 @@ function FunctionState() {
                         </tr>
                     ))}
                 </tbody>
-            </table>
+            </table>    
         </div>
     );
 }
